@@ -1,0 +1,102 @@
+.footer {
+  background: #414040;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  padding: 12px 0 23px;
+}
+.in-footer {
+  overflow: hidden;
+.logo {
+  float: none;
+}
+}
+.footer-left {
+  float: left;
+  p {
+    color: $colorwhite;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 2px 0 0 8px;
+  }
+}
+.footer-nav {
+  float: right;
+  display: flex;
+  margin: 8px 0 0;
+
+}
+.footer-menu {
+  margin: 11px 52px 0 0;
+    padding: 0;
+  li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: $colorwhite;
+   text-decoration: none;
+    transition: all 0.2s ease;
+    &:hover {
+      transition: all 0.2s ease;
+      color: $colorred;
+    }
+  }
+}
+.footer-language {
+  margin: 11px 36px 0 0;
+  a {
+font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.045em;
+    color: #A6A4A4;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    &:hover {
+      transition: all 0.2s ease;
+      color: $colorwhite;
+    }
+  }
+  a.active {
+    color: $colorwhite;
+    font-weight: bold;
+  }
+
+}
+.footer-contacts {
+  margin: 0 13px 0 0;
+  .phone-numbers {
+    a {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: $colorwhite;
+      border: none;
+      transition: all 0.2s ease;
+      &:hover {
+        transition: all 0.2s ease;
+        color: $colorred;
+      }
+    }
+    &:before {
+      background: url("../images/svg/icon8.svg");
+    }
+    &:hover {
+      color: $colorred;
+    }
+
+  }
+  .social-links {
+    margin: 5px 0 0 0;
+    a {
+      background: $colorwhite;
+      transition: all 0.2s ease;
+      &:hover {
+        background: $colorred;
+      }
+    }
+  }
+}

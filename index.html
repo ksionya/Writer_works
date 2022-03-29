@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Raleway:wght@400;600;700;800&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+ <header class="header">
+<article class="wrapper">
+ <div class="in-header">
+   <a class="logo" href="#"><img src="images/svg/logo.svg" alt=""></a>
+  <div class="burger">
+    <span></span>
+  </div>
+   <nav class="header-nav">
+     <ul class="menu">
+       <li><a href="#">Услуги</a></li>
+       <li><a href="#">Портфолио</a></li>
+       <li><a href="#">Почему мы</a></li>
+     </ul>
+     <div class="language">
+       <a class="active" href="#">RU/</a>
+       <a href="#">UKR/</a>
+       <a href="#">ENG</a>
+     </div>
+     <div class="header-contacts">
+       <div class="phone-numbers">
+         <a href="tel:+380 (96) 883 47 89">+380 (96) 883 47 89</a>
+         <a href="tel:+380 (63) 103  52  18">+380 (63) 103  52  18</a>
+       </div>
+       <div class="social-links">
+         <a href="#">
+           <svg width="10" height="9" viewBox="0 0 10 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M3.92392 5.68361L3.7585 8.09134C3.99517 8.09134 4.09767 7.98613 4.22059 7.85979L5.3302 6.76243L7.62942 8.50484C8.0511 8.74803 8.34819 8.61997 8.46194 8.10341L9.97115 0.78536L9.97156 0.784929C10.1053 0.139878 9.74614 -0.112364 9.3353 0.0458803L0.464252 3.56046C-0.141179 3.80365 -0.132012 4.1529 0.361333 4.31115L2.6293 5.04114L7.89735 1.63005C8.14527 1.46016 8.37069 1.55416 8.18527 1.72405L3.92392 5.68361Z" fill="white"/>
+           </svg>
+         </a>
+         <a href="#">
+           <svg width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M8.9999 4.82478C9.01397 3.11168 7.60767 1.54123 5.86505 1.32406C5.83039 1.3198 5.79263 1.31331 5.75266 1.30644C5.66639 1.29161 5.57717 1.27637 5.48716 1.27637C5.13 1.27637 5.03453 1.53666 5.00939 1.6919C4.98495 1.84285 5.00827 1.9696 5.07857 2.0688C5.19685 2.23567 5.40496 2.26529 5.57212 2.28902C5.62111 2.29604 5.66734 2.30257 5.70604 2.31159C7.27171 2.67456 7.7989 3.24523 8.05655 4.85583C8.06284 4.89519 8.06568 4.94368 8.0687 4.99511C8.07994 5.18764 8.10336 5.5882 8.51842 5.5882H8.51846C8.55301 5.5882 8.59014 5.5851 8.62881 5.57899C9.01532 5.51805 9.0032 5.1519 8.99739 4.97598C8.99575 4.92644 8.99418 4.87957 8.99822 4.8484C8.99931 4.84055 8.99986 4.83267 8.9999 4.82478Z" fill="white"/>
+             <path d="M5.49693 1.04625C5.53745 1.04929 5.57581 1.05219 5.60774 1.05728C7.8541 1.41615 8.88717 2.52178 9.17345 4.8736C9.17832 4.91358 9.17908 4.96234 9.17987 5.01397C9.18273 5.19771 9.18861 5.57996 9.58377 5.58788L9.59604 5.58801C9.71997 5.58801 9.81855 5.54919 9.88906 5.47254C10.0121 5.33887 10.0035 5.14031 9.99657 4.98073C9.99488 4.94158 9.99326 4.9047 9.99368 4.87242C10.0222 2.46711 8.01801 0.285988 5.70467 0.204878C5.69507 0.204547 5.68592 0.205076 5.67667 0.206429C5.67212 0.207122 5.6637 0.207981 5.64928 0.207981C5.62621 0.207981 5.59783 0.205901 5.56773 0.203788C5.53135 0.201213 5.4901 0.198242 5.44828 0.198242C5.07988 0.198242 5.00984 0.470259 5.00088 0.632413C4.98022 1.00716 5.32921 1.03354 5.49693 1.04625Z" fill="white"/>
+             <path d="M9.34273 7.86713C9.29331 7.82668 9.24222 7.78483 9.19438 7.74354C8.9406 7.52472 8.67062 7.32303 8.40952 7.12795C8.35533 7.08751 8.30114 7.04703 8.24715 7.00644C7.91269 6.75472 7.612 6.6324 7.32791 6.6324C6.94528 6.6324 6.61167 6.85894 6.33633 7.30562C6.21434 7.50365 6.06635 7.59994 5.88396 7.59994C5.77611 7.59994 5.65356 7.56696 5.51977 7.50189C4.4402 6.97734 3.66932 6.1731 3.22849 5.1115C3.01539 4.59841 3.08447 4.26301 3.45951 3.99005C3.67247 3.83518 4.06888 3.54685 4.0408 2.99472C4.00901 2.36772 2.71785 0.481165 2.17384 0.266893C1.94351 0.17614 1.70151 0.175294 1.45326 0.264779C0.827872 0.490043 0.379085 0.885646 0.1553 1.40875C-0.0609563 1.9142 -0.0511907 2.50769 0.183544 3.12507C0.862134 4.91006 1.8162 6.46633 3.01933 7.75058C4.19698 9.00775 5.64442 10.0375 7.3214 10.8112C7.47255 10.8809 7.6311 10.9189 7.74687 10.9467C7.78633 10.9562 7.82039 10.9643 7.84522 10.9716C7.85886 10.9755 7.87294 10.9777 7.88704 10.9778L7.90029 10.9779C7.90033 10.9779 7.90029 10.9779 7.90036 10.9779C8.6891 10.9779 9.63616 10.2057 9.92702 9.32524C10.1818 8.55433 9.71659 8.17328 9.34273 7.86713Z" fill="white"/>
+             <path d="M5.51067 3.4329C5.38428 3.43625 5.12123 3.44309 5.02893 3.72369C4.98575 3.85483 4.99092 3.96868 5.04432 4.0621C5.12268 4.19916 5.2728 4.24117 5.40936 4.26421C5.90458 4.34744 6.15892 4.63427 6.20979 5.1668C6.23343 5.41511 6.39306 5.5885 6.59803 5.5885H6.59807C6.61321 5.5885 6.62869 5.58757 6.64411 5.5856C6.89063 5.55488 7.01013 5.36518 6.99933 5.02181C7.00327 4.66345 6.82421 4.25661 6.51968 3.93255C6.2141 3.60749 5.84574 3.42442 5.51067 3.4329Z" fill="white"/>
+           </svg>
+
+         </a>
+       </div>
+     </div>
+   </nav>
+
+ </div>
+</article>
+
+</header>
+
+<section class="main">
+  <article class="wrapper">
+    <h1>Поможем в разработке диссертации <b>"под ключ"</b></h1>
+    <p>Какая у вас специальность? Сроки? Какие наработки имеются? </p>
+    <a class="btn btn-red" href="#popup-consultation" data-fancybox>Проконсультироваться</a>
+    <i>Просчитаем стоимость вашей работы и сформируем предложение</i>
+    <img class="bg-main" src="images/bg-main.png" alt="">
+  </article>
+</section>
+<section class="facts">
+  <article class="wrapper">
+    <div class="facts-list">
+      <div class="facts-item">
+        <div class="facts-item_top">
+          <b>4</b><i class="plus">+</i>
+        </div>
+        <p>Года в деле</p>
+      </div>
+      <div class="facts-item">
+        <div class="facts-item_top">
+          <b>65</b><i class="plus">+</i>
+        </div>
+        <p>Трудов защитили, благодаря нам</p>
+      </div>
+      <div class="facts-item">
+        <div class="facts-item_top">
+          <i>до </i><b>40</b>
+        </div>
+        <p>лет опыт наших авторов</p>
+      </div>
+      <div class="facts-item">
+        <div class="facts-item_top">
+          <i>от </i><b>3</b>
+        </div>
+        <p>месяцев пишем работы</p>
+      </div>
+    </div>
+    <div class="slogan">
+      <div class="img-wrapper">
+
+      </div>
+      <div class="text-wrapper">
+        <h2 class="wow bounceInRight" data-wow-duration="1.5s">Знаем свое <b>дело</b></h2>
+        <p class="wow bounceInRight" data-wow-duration="1.5s">К нам обращаются люди, которые знают, чего хотят, четко идут к своим целям в научных достижениях. И мы им в этом помогаем!</p>
+        <img class="wow bounceInLeft" data-wow-duration="1.5s" src="images/facts.png" alt="">
+      </div>
+    </div>
+
+
+  </article>
+
+</section>
+<section class="services">
+  <article class="wrapper">
+    <div class="services-top">
+      <h3>услуги</h3>
+      <img src="images/svg/arrow.svg" alt="">
+    </div>
+    <h2>Готовы выполнить для вас труд <b>"под ключ"</b> или отдельные части</h2>
+<div class="in-services">
+  <div class="services-list">
+    <div class="services-item wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
+      <div class="in">
+        <div class="services-item_left">
+          <h3>Кандидатская диссертация “под ключ”</h3>
+          <div class="bottom">
+            <p><b>от 58 000 грн</b><i>(Выгода до 25%)</i></p>
+            <a class="btn btn-red" href="#popup-consultation" data-fancybox>Проконсультироваться</a>
+
+          </div>
+        </div>
+        <div class="services-item_right">
+          <h4> Если заказывать отдельно:</h4>
+          <ul>
+            <li>Работа от 45 000 грн</li>
+            <li>Статья ВАК от 2 300 грн</li>
+            <li>Статья для Scopus от 2 800 грн</li>
+            <li>Автореферат от 12 000 грн</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="services-item wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="in">
+        <div class="services-item_left">
+          <h3>докторская диссертация “под ключ”</h3>
+          <div class="bottom">
+            <p><b>от 210 000 грн</b><i>(Выгода до 35%)</i></p>
+            <a class="btn btn-red" href="#popup-consultation" data-fancybox>Проконсультироваться</a>
+          </div>
+        </div>
+        <div class="services-item_right">
+          <h4> Если заказывать отдельно:</h4>
+          <ul>
+            <li>Работа от 120 000 грн</li>
+            <li>Статья ВАК от 2 800 грн</li>
+            <li>Статья для Scopus от 3 300 грн</li>
+            <li>Автореферат от 19 000 грн</li>
+            <li>Монография от 50 000 грн</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="services-item bg-red wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s">
+      <div class="in">
+        <div class="services-item_left">
+          <h3>Дополнительно</h3>
+          <div class="bottom">
+            <p><b>от 2 300 грн</b></p>
+            <a class="btn btn-white" href="#popup-consultation" data-fancybox>Проконсультироваться</a>
+          </div>
+        </div>
+        <div class="services-item_right">
+          <h4></h4>
+          <ul>
+            <li>Тезисы (апробация)</li>
+            <li>Патенты (для технических специальностей)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="services-right">
+    <img src="images/PhD.png" alt="">
+  </div>
+</div>
+  </article>
+</section>
+<section class="advantages">
+  <article class="wrapper">
+<h2><b>Нас выбирают</b> не просто так</h2>
+   <div class="in-advantages">
+     <div class="advantages-img" >
+       <img class="wow bounceInLeft" src="images/svg/advantages-img.svg" data-wow-duration="2s" alt="">
+
+     </div>
+     <div class="advantages-list wow bounceInRight" data-wow-duration="2s">
+       <ul>
+         <li>
+           <h4>Справляемся со всеми специальностями и уровнями сложности.</h4>
+           <p>Для нас нет ничего невозможного</p>
+         </li>
+         <li>
+           <h4>Даем настоящие гарантии.</h4>
+           <p>Дорожим будущим клиентов и своей репутацией</p>
+         </li>
+         <li>
+           <h4>Полное сопровождение до защиты.</h4>
+           <p>Работаем понятно и прозрачно.
+             Контроль процесса с вашей стороны</p>
+         </li>
+         <li>
+           <h4>Понимаем своих клиентов с полуслова.</h4><p>Всегда договоримся, найдем компромисс</p>
+         </li>
+       </ul>
+
+     </div>
+   </div>
+  </article>
+</section>
+<section class="examples-block">
+  <article class="wrapper">
+    <h3><b>Мы понимаем</b>, насколько важно найти хороших исполнителей для своей диссертации, поэтому показываем вам, какие <b>работы способны выполнять.</b></h3>
+<h5>По понятным причинам, название тем немного видоизменили. Анонимность превыше всего</h5>
+
+  </article>
+  <div class="examples-list">
+    <div class="examples-item">
+     <div class="in">
+       <h4>Специальность: Авиа-ракетостроение</h4>
+       <p>Тема: "Прямоточные двигатели в ракетостроении. Регулирование расхода топлива"</p>
+     </div>
+    </div>
+    <div class="examples-item">
+      <div class="in">
+        <h4>Специальность: Психология</h4>
+        <p>Тема: "Формирование профессионально-ценностных ориентаций будущих работников с/х в профессиональных технических училищах"</p>
+      </div>
+    </div>
+    <div class="examples-item">
+      <div class="in">
+        <h4>Специальность: Электротехника</h4>
+        <p>Тема: "Метрологическое обеспечивание термометрических систем..."</p>
+      </div>
+    </div>
+    <div class="examples-item">
+      <div class="in">
+        <h4>Специальность: Информационные технологии</h4>
+        <p>Тема: "Теоретические и практические принципы обеспечивания комплексной защиты компьютерных систем и сетей (на примере Аппаратно-реализованной системы защиты сети самообучающимися антивирусными модулями)</p>
+
+      </div>
+    </div>
+    <div class="examples-item">
+      <div class="in">
+        <h4>Специальность: Педагогика</h4>
+        <p>Тема: "Использование информационно-коммуникационных технологий в процессе обучения иностранных студентов на английском языке в Великобритании"</p>
+
+      </div>
+    </div>
+    <div class="examples-item">
+      <div class="in">
+        <h4>Специальность: Маркетинг</h4>
+        <p>Тема: "Организационно-экономический механизм в маркетинге (на примере отечественных предприятий по производству стали)</p>
+
+      </div>
+    </div>
+  </div>
+  <div class="examples-block_form">
+    <article class="wrapper">
+      <img class="bg-example" src="images/bg-example.png" alt="">
+      <h3>Покажите нам <b>свою тему</b></h3>
+      <h5>Сделаем все, чтобы вы успешно получили степень</h5>
+      <ul class="examples-block_list wow bounceInDown" data-wow-duration="1.5s">
+        <li>
+          <img src="images/svg/icon4.svg" alt="">
+          никакого плагиата
+        </li>
+        <li>
+          <img src="images/svg/icon5.svg" alt="">
+          конфиденциальность
+        </li>
+        <li>
+          <img src="images/svg/icon6.svg" alt="">
+          полное сопровождение
+        </li>
+      </ul>
+      <form action="">
+        <div class="form-item">
+          <input type="text" placeholder="Ваше имя">
+        </div>
+        <div class="form-item">
+          <input class="phone" type="text" placeholder="Ваш номер телефона">
+        </div>
+        <div class="form-item">
+          <textarea placeholder="Какая у вас специальность, сроки, какие имеются наработки"></textarea>
+        </div>
+        <div class="form-item">
+          <a class="btn btn-red" href="#">Проконсультироваться</a>
+        </div>
+      </form>
+      <div class="examples-block_bottom">
+        <div class="text-wrapper wow bounceInLeft" data-wow-duration="2s">
+          <h3>вовсе не важно, для какой целивы <b>получаете научное звание</b></h3>
+          <h5>Для продвижения в карьере или для регалий в научной деятельности</h5>
+          <p>напишем работу <span>конкретно под ваш запрос,</span> с необходимой глубиной научного исследования и <b>под имеющийся бюджет!</b></p>
+        </div>
+        <div class="img-wrapper">
+          <img class="wow bounceInRight" data-wow-duration="2s" src="images/image1.png" alt="">
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+<section class="slogan-block bg-red">
+  <article class="wrapper">
+   <div class="in">
+     <div class="img-wrapper">
+       <img class="" src="images/svg/icon7.svg" alt="">
+     </div>
+     <div class="text-wrapper">
+       <h4>Ваша задача предоставить нам необходимый материал, установить сроки выполнения</h4>
+       <p>Наше обязательство — отдать вам готовый, оформленный текст</p>
+     </div>
+   </div>
+  </article>
+</section>
+<section class="statistics">
+<article class="wrapper">
+  <h3>представьте, сколько времени мы можем <b>сэкономить для вас</b></h3>
+<h5>По нашей статистике, в среднем мы экономим своим клиентам от 4 до 9 месяцев жизни</h5>
+<ul>
+  <img class="bg-stat rotated" src="images/bg-stat.png" alt="">
+  <li>
+<div class="in">
+  <p>В разработке правильного содержания, чтобы в дальнейшем хватило материала <br>для написания разделов</p>
+</div>  </li>
+  <li>
+<div class="in">
+  <p>В поиске и подборе огромного <br>количества литературы, ее <br>обрабатывании и внедрении в труд</p>
+
+</div>  </li>
+  <li>
+<div class="in">
+  <p>В форматировании текста для <br>прохождения строгих систем проверки плагиата</p>
+
+</div>  </li>
+  <li>
+<div class="in">
+  <p>В проведении длительных сложных исследований, разработке <br>практической значимости труда</p>
+
+</div>  </li>
+</ul>
+  <div class="form">
+    <img class="decor-left rotated-back" src="images/image2.png" alt="">
+<div class="form-left">
+  <h3>Если вы все еще <br>сомневаетесь, сможем ли <b>мы качественно вам помочь</b></h3>
+  <p>Оставьте свой контакт и мы убедим вас, что <br>сотрудничество с нами — <b>одно из самых правильных ваших решений за последние несколько лет</b></p>
+
+</div>
+  <div class="form-right">
+    <form action="">
+      <div class="form-item">
+        <input type="text" placeholder="Ваше имя">
+      </div>
+      <div class="form-item">
+        <input class="phone" type="text" placeholder="Ваш номер телефона">
+      </div>
+      <button class="btn btn-red">Жду звонка</button>
+    </form>
+  </div>
+    <img class="decor-right" src="images/image3.png" alt="">
+  </div>
+</article>
+</section>
+<footer class="footer">
+  <article class="wrapper">
+<div class="in-footer">
+  <div class="footer-left">
+    <a class="logo" href="#"><img src="images/svg/logo2.svg" alt=""></a>
+    <p>© 2021 Все права защищены</p>
+  </div>
+  <nav class="footer-nav">
+    <div class="footer-language">
+      <a class="active" href="#">RU/</a>
+      <a href="#">UKR/</a>
+      <a href="#">ENG</a>
+    </div>
+    <ul class="footer-menu">
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#">Портфолио</a></li>
+      <li><a href="#">Почему мы</a></li>
+    </ul>
+
+    <div class="footer-contacts">
+      <div class="phone-numbers">
+        <a href="tel:+380 (96) 883 47 89">+380 (96) 883 47 89</a>
+        <a href="tel:+380 (63) 103  52  18">+380 (63) 103  52  18</a>
+      </div>
+      <div class="social-links">
+        <a href="#"><img src="images/svg/telegram2.svg" alt=""></a>
+        <a href="#"><img src="images/svg/viber2.svg" alt=""></a>
+      </div>
+    </div>
+  </nav>
+</div>
+  </article>
+</footer>
+<div class="popup popup-consultation" id="popup-consultation">
+  <h2>Заказать консультацию</h2>
+  <p>Перезвоним, проконсультируем по всем вопросам</p>
+  <form action="">
+    <div class="form-item popup-form_item">
+      <input type="text" placeholder="Ваше имя">
+    </div>
+    <div class="form-item popup-form_item">
+      <input class="phone" type="text" placeholder="Ваш номер телефона">
+    </div>
+    <button class="btn btn-red">Жду звонка</button>
+  </form>
+  <p class="note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
+</div>
+ <script src="js/libs/jquery-3.6.0.min.js"></script>
+<script src="js/libs/jquery.maskedinput.min.js"></script>
+<script src="js/libs/jquery.fancybox.min.js"></script>
+<script src="js/libs/wow.js"></script>
+
+
+
+<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
+
