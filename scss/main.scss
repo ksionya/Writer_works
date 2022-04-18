@@ -587,6 +587,7 @@ b {
         outline: none;
         box-sizing: border-box;
         border: 1px solid transparent;
+      transition: all 0.2s ease;
         &:focus,
         &:active {
             border: 1px solid $colorred;
